@@ -1,0 +1,17 @@
+[project]
+name = "dnd-dice-roller-discord-bot"
+version = "0.1.0"
+description = "A Discord bot for rolling Dungeons & Dragons dice"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "crescent>=0.0.17",
+    "dotenv>=0.9.9",
+    "hikari>=2.3.5",
+]
+
+[dependency-groups]
+linux = [
+    "uvloop",
+]
